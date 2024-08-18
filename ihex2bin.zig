@@ -1,5 +1,3 @@
-// zig build-exe ihex2bin.zig
-
 const std = @import("std");
 const allocator = std.heap.page_allocator; //std.mem.Allocator;
 const file_name = "example.hex";
